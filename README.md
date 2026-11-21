@@ -2,7 +2,7 @@
 
 A personal message Keeper for Telegram. While you're offline, the bot logs incoming text from connected, pre-selected chats so you can review them in one place, run a Gemini summary, or delete the history anytime.
 
-Each message is saved as an independent copy on arrival. If a sender deletes their message in Telegram afterward, your local record stays untouched. The bot only captures messages sent while logging is enabled and it has chat access—prior deletions cannot be recovered.
+Each message is saved as an independent copy on arrival. If a sender deletes their message in Telegram afterward, your local record stays untouched. The bot only captures messages sent while logging is enabled and it has chat access prior deletions cannot be recovered.
 
 This project is intended for personal use. It uses Telegram's **Secretary Mode** because that is the BotFather setting required for this kind of connected-chat access; that setting name does not mean the project is a business product.
 
