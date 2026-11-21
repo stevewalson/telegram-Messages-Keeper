@@ -1,0 +1,19 @@
+{
+  "name": "telegram-bot-personal-assistant",
+  "version": "1.0.0",
+  "description": "Pulse: a personal Telegram assistant for reviewing connected-chat messages and AI-powered summaries.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@google/genai": "^3.6.1",
+    "better-sqlite3": "^13.2.0",
+    "dotenv": "^18.0.10",
+    "grammy": "^1.46.0"
+  }
+}
