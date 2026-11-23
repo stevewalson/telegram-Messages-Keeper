@@ -1,17 +1,17 @@
 # Telegram Messages Keeper
 
-A personal message Keeper for Telegram. While you're offline, the bot logs incoming text from connected, pre-selected chats so you can review them in one place, run a Gemini summary, or delete the history anytime.
+The bot logs texts you receive from private chats while you’re offline so you can read them later, get a summary, or clear your history.
 
-Each message is saved as an independent copy on arrival. If a sender deletes their message in Telegram afterward, your local record stays untouched. The bot only captures messages sent while logging is enabled and it has chat access prior deletions cannot be recovered.
+Every message is saved locally the moment it arrives. If a sender deletes a message on Telegram, your copy stays put. The bot only catches new messages while it’s running and can’t recover anything from before.
 
-This project is intended for personal use. It uses Telegram's **Secretary Mode** because that is the BotFather setting required for this kind of connected-chat access; that setting name does not mean the project is a business product.
+This is just a personal tool. It uses **Secretary Mode** in BotFather to get the necessary chat access, but that’s just a technical setting and not a commercial product.
 
 
 ## What it does
 
 - Receives text messages from chats the account owner has chosen to connect and share with the bot.
 - Stores messages and sender details in a local SQLite database named `messages.db`.
-- Provides `/assistant` controls to enable/disable message saving, display saved messages in one place, summarize them with Google Gemini, and delete them.
+- Provides `/assistant` controls to enable/disable message saving, display saved messages in one place, summarize them with AI (Google Gemini), and delete them.
 - Does not automatically reply to incoming messages.
 
 Messages are saved only while it is enabled. The database is local to the machine running the bot and remains there until messages are deleted or the database file is removed.
