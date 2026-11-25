@@ -37,6 +37,11 @@ Because a saved copy can remain after the original is deleted in Telegram, use t
 
 ## Install and run
 
+1. **Clone the repository**
+```bash
+   git clone https://github.com/stevewalson/telegram-assistant-dm-forwarder.git
+   cd telegram-assistant-dm-forwarder
+```
 From the project directory:
 
 ```sh
