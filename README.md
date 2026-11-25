@@ -42,7 +42,7 @@ Because a saved copy can remain after the original is deleted in Telegram, use t
    git clone https://github.com/stevewalson/telegram-assistant-dm-forwarder.git
    cd telegram-assistant-dm-forwarder
 ```
-1. **From the project directory:**
+2. **From the project directory:**
 
 ```sh
 npm install
