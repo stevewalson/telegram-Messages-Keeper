@@ -33,6 +33,7 @@ Because a saved copy can remain after the original is deleted in Telegram, use t
    - Enable **Secretary Mode**. This is Telegram's BotFather setting name for the capability this personal project uses.
    - Disable **Allow Groups** so the bot cannot be added to group chats.
    - Enable **Restrict Bot Usage** , so only you can control the bot. Menu labels may change as Telegram updates BotFather.
+5. Open your profile settings and select Chat Automation, and enter the @username of the bot you created and confirm to link it.
 
 ## Install and run
 
